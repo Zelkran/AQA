@@ -1,0 +1,19 @@
+{
+    "name": "ab_soft_test",
+    "version": "0.0.1",
+    "author": {
+        "name": "Oleksandr Kovalenko",
+        "email": "kovalenkoemail@gmail.com"
+    },
+    "scripts": {
+        "test": "protractor conf/conf.js"
+    },
+    "dependencies": {
+        "jasmine": "^3.5.0",
+        "jasmine-spec-reporter": "^4.2.1",
+        "node-fetch": "^2.6.0",
+        "nodemailer": "^6.4.10",
+        "protractor": "^5.4.2",
+        "protractor-jasmine2-html-reporter": "0.0.7"
+    }
+}

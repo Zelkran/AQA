@@ -1,0 +1,3 @@
+[0721/172503.287:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0721/172503.288:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0721/172503.288:ERROR:exception_snapshot_win.cc(98)] thread ID 18844 not found in process
