@@ -7,3 +7,7 @@ This project is:
 4. Sending letter with randomly generated links to randomly generated email via gmail.
 5. Receiving and open email.
 6. Click on this links and make screenshot of each.
+
+## Getting started
+
+To start this project you need:
