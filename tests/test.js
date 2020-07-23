@@ -2,15 +2,11 @@ const fetch = require('node-fetch');
 const nodemailer = require('nodemailer');
 const { browser } = require('protractor');
 const { getnadapage } = require('../pages');
+const secret = require('../secret')
 
 describe('Test task', function () {
     let email, dog, fox;
     const timeStamp = Date.now();
-
-    // --GMAIL USER AND PASSWORD--
-    const user = '';
-    const pass = '';
-    //----------------------------
 
     it('Getting random emai from getnada.com', async () => {
         await getnadapage.open();
@@ -36,12 +32,12 @@ describe('Test task', function () {
         let transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: `${user}`,
-                pass: `${pass}`,
+                user: `${secret.user}`,
+                pass: `${secret.pass}`,
             }
         });
         let mailOptions = {
-            from: `${user}`,
+            from: `${secret.user}`,
             to: `${email}`,
             subject: `Test email:${timeStamp}`,
             text: `Random Dog Link: <a class="dog" href="${dog}">Dog</a> <br> Random Fox Link: <a class="fox" href="${fox}">Fox</a>`
