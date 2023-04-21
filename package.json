@@ -11,7 +11,7 @@
     "dependencies": {
         "jasmine": "^3.5.0",
         "jasmine-spec-reporter": "^4.2.1",
-        "node-fetch": "^2.6.0",
+        "node-fetch": "^2.6.7",
         "nodemailer": "^6.4.10",
         "protractor": "^5.4.2",
         "protractor-jasmine2-html-reporter": "0.0.7"
